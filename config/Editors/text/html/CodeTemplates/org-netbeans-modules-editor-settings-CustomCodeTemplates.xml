@@ -41,8 +41,7 @@ ${cursor}]]></code>
 <?php endif; ?>]]></code>
     </codetemplate>
     <codetemplate abbreviation="text" xml:space="preserve">
-        <code><![CDATA[<?php echo $form->text('${1:Model}.${2:field}'$3); ?>
-${cursor}
+        <code><![CDATA[<?php echo $form->text('${Model}.${field}'${cursor}); ?>
 ]]></code>
     </codetemplate>
     <codetemplate abbreviation="form" xml:space="preserve">
@@ -86,7 +85,7 @@ ${cursor}]]></code>
         <code><![CDATA[<?php echo $form->day('${Model}.${field}'${cursor}); ?>]]></code>
     </codetemplate>
     <codetemplate abbreviation="each" xml:space="preserve">
-        <code><![CDATA[<?php foreach ($${array} as $${key}=>$${value}): ?>
+        <code><![CDATA[<?php foreach ($$${array} as $$${key}=>$$${value}): ?>
 	${cursor}  	 
 <?php endforeach; ?>]]></code>
     </codetemplate>

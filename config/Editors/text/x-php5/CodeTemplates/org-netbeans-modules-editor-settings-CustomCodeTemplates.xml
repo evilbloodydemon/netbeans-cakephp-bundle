@@ -19,8 +19,7 @@ ${cursor}]]></code>
         <code><![CDATA[debug ($$${data});]]></code>
     </codetemplate>
     <codetemplate abbreviation="after" xml:space="preserve">
-        <code><![CDATA[
-function afterFilter() {
+        <code><![CDATA[function afterFilter() {
 	${cursor}
 }]]></code>
     </codetemplate>
