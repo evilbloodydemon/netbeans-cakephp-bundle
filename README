@@ -1,0 +1,16 @@
+
+  Author
+  -------
+  Igor Fomin (evilbloodydemon@gmail.com)
+
+  Installation
+  ------------
+  1. Donwload latest zip file from http://github.com/evilbloodydemon/netbeans-cakephp-bundle/downloads
+  2. Start NetBeans
+  3. Import code templates (Tools -> Options -> Import)
+  4. Restart NetBeans
+  5. Enjoy
+
+  Description
+  ------------
+  This is a set of CakePHP code templates for NetBeans inspired by TextMate bundle.
